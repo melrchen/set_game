@@ -76,6 +76,7 @@ def play_game():
             else: 
                 for i in range(3): 
                     s[i] = int(s[i])
+                s.sort()
                 set = [curr_board[i] for i in s]
                 if check_set(set): 
                     sets_found+=1
