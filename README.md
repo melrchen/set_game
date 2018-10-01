@@ -10,13 +10,13 @@ To play, each round, 12 cards are dealt. A set consists of three cards in which 
 
 To play this Python version of the game, clone this github repository and within the directory, ensuring that you are using Python3, call 
 
-'''
+```
 python set.py
-'''
+```
 
 From there, you will see a board of cards dealt in terminal listing the variation of each feature for each card, something like this: 
 
-'''
+```
 ('purple', 'diamond', 'empty', 3)  
 ('red', 'oval', 'empty', 1)  
 ('green', 'squiggle', 'solid', 2)  
@@ -29,17 +29,17 @@ From there, you will see a board of cards dealt in terminal listing the variatio
 ('red', 'squiggle', 'solid', 2)  
 ('green', 'oval', 'solid', 3)  
 ('purple', 'squiggle', 'empty', 1)  
-'''
+```
 
 Then, a player has the option to either look for sets, ask for more cards to be dealt, or quit the game. 
 
 To input a possible set, format your response as "a b c", where a, b, c, are the indices of the cards you would like to submit in your set. For example, submitting "0 1 2" would be submitting the set: 
 
-'''
+```
 ('purple', 'diamond', 'empty', 3)  
 ('red', 'oval', 'empty', 1)  
 ('green', 'squiggle', 'solid', 2) 
-'''
+```
 
 Then, to ask for another three cards to be added to the board to search for more sets, simply type "deal" and enter. 
 
@@ -47,10 +47,10 @@ To quit the game at any point, type "quit" or "q" and enter. Note that this game
 
 After the user has decided that they are finished playing the game, the console will print the number of sets the user was able to correctly identify, in a message like below: 
 
-'''
+```
 Please make a move: quit
 You found  10  sets!
-'''
+```
 
 
 
